@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Button from "./UI/Button.jsx";
-import { currencyFormatter } from "../util/formatting";
+import { currencyFormatter } from "../util/formatting.js";
 import CartContext from "../store/CartContext.jsx";
 
 export default function MealItem({ meal }) {
